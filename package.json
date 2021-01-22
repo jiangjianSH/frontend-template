@@ -1,0 +1,30 @@
+{
+  "name": "babel-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel-node src/index.js",
+    "format": "npx prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "husky": "^5.0.6",
+    "lint-staged": "^10.5.3",
+    "prettier": "2.2.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
