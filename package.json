@@ -25,6 +25,6 @@
     }
   },
   "lint-staged": {
-    "src/*": "prettier --write --ignore-unknown"
+    "src/*": "prettier --write"
   }
 }
