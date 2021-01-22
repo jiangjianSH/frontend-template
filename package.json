@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "babel-node src/index.js",
+    "lint": "npx eslint src/",
     "format": "npx prettier --write ."
   },
   "author": "",
@@ -12,6 +13,8 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.3",
     "prettier": "2.2.1"
