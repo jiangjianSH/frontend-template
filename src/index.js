@@ -1,10 +1,7 @@
 const hello = (name) => console.log(`hello ${name}`);
 
-hello("jiangjian")
+hello("jiangjian");
 
-        function say() {
+function say() {
   console.log("hahahsh");
 }
-
-
-  
