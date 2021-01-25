@@ -1,6 +1,6 @@
 var hello = (name) => console.log(`hello ${name}`);
 
-hello("jiangjian");
+hello("jiangjianxx");
 
 function say() {
 	console.log("hahahsh");
