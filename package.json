@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel-node src/index.js",
+    "build": "webpack --mode production",
     "lint": "npx eslint src/",
     "format": "npx prettier --write .",
     "dev": "webpack --mode development",
@@ -31,7 +31,8 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "babel-polyfill": "^6.26.0"
+    "babel-polyfill": "^6.26.0",
+    "moment": "^2.29.1"
   },
   "husky": {
     "hooks": {
