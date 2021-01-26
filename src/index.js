@@ -14,5 +14,3 @@ btn.addEventListener("click", () => {
 		getUsers().then((json) => console.log(json));
 	});
 });
-
-console.log("xxx");
