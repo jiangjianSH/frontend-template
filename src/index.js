@@ -1,6 +1,6 @@
 import "./style.css";
 import "./style.scss";
-import moment from "moment";
+
 const getUserModule = () => import("./common/usersAPI");
 
 var hello = (name) => console.log(`hello ${name}`);
