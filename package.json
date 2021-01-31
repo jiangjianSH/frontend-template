@@ -24,7 +24,9 @@
     "prettier": "2.2.1",
     "sass": "^1.32.5",
     "sass-loader": "^10.1.1",
-    "style-loader": "^2.0.0"
+    "style-loader": "^2.0.0",
+    "webpack": "^5.19.0",
+    "webpack-nano": "^1.1.1"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
